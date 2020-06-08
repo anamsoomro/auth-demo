@@ -18,11 +18,11 @@ function Step4(props) {
     <div className="step">
     <h1> 4 </h1>
       <p>
-        users are authorized by giving them tokens that are stored on the client side which gives them access to your application. 
+        users are authorized through tokens that are stored on the client side which give access to the rest of the application. 
       </p>
 
       <p>
-        to generate a token, we pass a payload that isunique to that user, we can use their user_id. a secret. and an encrypting algorithm.
+        to generate a token, we pass a payload that is unique to that user, we can use their user_id, a secret, and an encrypting algorithm.
       </p>
 
       <h4> payload: user_id: {Math.floor(Math.random() * 100)}</h4>
@@ -37,7 +37,7 @@ function Step4(props) {
       <h4> localStorage.token = {localStorage.token} </h4>
 
       <p>
-        from the front end, as your user navigates the site you can check to see if they have a token in local storage or if you need to send them back to login
+        from the frontend, as your user navigates the site you can check to see if they have a token in local storage or if you need to send them back to login
       </p>
 
       { props.step < 5 && <button onClick={props.nextStep}> next </button> }

@@ -17,8 +17,8 @@ function Step6(props) {
     <div className="step">
       <h1> 6 </h1>
       <p>
-        now everytime a user makes a request to your server, we better check to see if that got their token
-        in our backend we recieve their token pass it our password and decrypt the token for the iinitiial payload
+        now everytime a user makes a request to your server, we better check to see if that got their token.
+        in our backend we recieve their token pass it our password and decrypt the token for the initiial payload
       </p>
 
       <h4> {localStorage.token} => secret: "suhcurrity_is_important" => user_id: {checkAuth()} </h4>

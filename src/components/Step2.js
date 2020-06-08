@@ -19,7 +19,7 @@ function Step2(props) {
     <div>
       <h1> 2 </h1>
       <p>
-        your password here is passed to a backend server. the backend servers job is to take this password, it encrpyting using password salting and save it to the database securely. 
+        your password here is passed to a backend server. the backend servers job is to take this password, encrpyt it using password salting and save it to the database securely. 
       </p>
       <h4> password: {props.password} </h4>
       {/* <button onClick={saltPassword}> salt it </button> */}

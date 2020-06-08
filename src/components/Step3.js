@@ -61,7 +61,7 @@ function Step3(props) {
     </form>
 
     <p>
-      these credentials are now sent to the back end. if a user exists, thie password is diigested usiinig the same algorithm and compared. 
+      these credentials are now sent to the back end. if a user exists, the password is diigested usinig the same algorithm and compared. 
     </p>
 
       <h4> find username. </h4>

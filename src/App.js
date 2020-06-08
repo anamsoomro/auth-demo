@@ -15,7 +15,7 @@ function App(props) {
   return (
     <div className="App">
       <h1> Authentication and Authorization </h1>
-      <p> token based backend authorization using bcrypt and jwt</p>
+      <p> token based backend authentication authorization using bcrypt and jwt</p>
       <button onClick={() => props.setStep(8)}> I aint got time for this Anam </button>
 
       {props.step > 0 && <Step1 />} 
