@@ -18,7 +18,7 @@ function Step1(props) {
   }
 
   return(
-    <div>
+    <div className="step">
       <h1> 1 </h1>
       <h3> sign up below, not storing anything, just tryna show you something </h3>
       <form onSubmit={submit}>

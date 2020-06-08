@@ -49,7 +49,7 @@ function Step3(props) {
   }
 
   return(
-    <div>
+    <div className="step">
     <h1> 3 </h1>
     <h3> now try logging in </h3>
     <form onSubmit={checkCredentials}>

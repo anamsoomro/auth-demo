@@ -15,7 +15,7 @@ function Step4(props) {
   token()
 
   return(
-    <div>
+    <div className="step">
     <h1> 4 </h1>
       <p>
         users are authorized by giving them tokens that are stored on the client side which gives them access to your application. 

@@ -15,7 +15,7 @@ function Step2(props) {
   }
 
   return(
-    <div>
+    <div className="step">
     <div>
       <h1> 2 </h1>
       <p>

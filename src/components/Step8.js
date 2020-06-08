@@ -7,7 +7,7 @@ function Step8() {
 
 
   return(
-    <div>
+    <div className="step">
     <h1> 8 </h1>
 
     <button> Ruby and React Authorization and Authenticaion Demo Project </button>

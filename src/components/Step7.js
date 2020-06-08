@@ -12,7 +12,7 @@ function Step7(props) {
   }
 
   return(
-    <div>
+    <div className="step">
       <h1> 7 </h1>
       <p> 
         yo dont forget your logout.  dont worry thats easy you just clear your clients local storage. 

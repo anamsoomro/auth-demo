@@ -14,7 +14,7 @@ function Step6(props) {
   }
 
   return(
-    <div>
+    <div className="step">
       <h1> 6 </h1>
       <p>
         now everytime a user makes a request to your server, we better check to see if that got their token

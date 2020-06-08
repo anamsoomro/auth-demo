@@ -7,7 +7,7 @@ import { connect } from 'react-redux'
 function Step5(props) {
 
   return(
-    <div>
+    <div className="step">
       <h1> 5 </h1>
       <p>
         for the backend you want to also be checking to see if your user is authenticated with every request.
